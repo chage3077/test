@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/mycode/design_model_code/build",
+  "command": "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/c++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Mytest.dir/main.cpp.obj -c F:/mycode/design_model_code/main.cpp",
+  "file": "F:/mycode/design_model_code/main.cpp",
+  "output": "CMakeFiles/Mytest.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/mycode/design_model_code/build",
+  "command": "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/c++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Mytest.dir/src/Association.cpp.obj -c F:/mycode/design_model_code/src/Association.cpp",
+  "file": "F:/mycode/design_model_code/src/Association.cpp",
+  "output": "CMakeFiles/Mytest.dir/src/Association.cpp.obj"
+},
+{
+  "directory": "F:/mycode/design_model_code/build",
+  "command": "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/c++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Mytest.dir/src/Generalization.cpp.obj -c F:/mycode/design_model_code/src/Generalization.cpp",
+  "file": "F:/mycode/design_model_code/src/Generalization.cpp",
+  "output": "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj"
+}
+]

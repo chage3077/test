@@ -1,0 +1,135 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/cc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib",
+						"F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/c++.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
