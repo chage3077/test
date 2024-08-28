@@ -5,6 +5,7 @@
 #跳转命令
 cd ../ #跳转到上级文件目录
 cd ./xxx/xx # ./代表当前的文件目录，现在跳转到指定路径
+ctrl+c # 结束进程
 ```
 ## 文件的基本操作
 * 查看绝对路径
@@ -28,7 +29,7 @@ ls -la
 # 有权限的情况下
 mkdir 文件夹名称 # 最后在需要创建文件夹的目录下使用
 
-//无权限的情况下
+# 无权限的情况下
 sudo mkdir 文件夹名称 
 ```
 * 删除文件夹
@@ -48,6 +49,12 @@ mv file.txt /home/user/Documents/newfile.txt
 
 #将目录 mydir 移动到 /home/user/Documents 中
 mv mydir /home/user/Documents
+```
+* 共享文件夹</br>
+在虚拟机VM可以配置共享文件夹，实现本地电脑与虚拟机系统文件的传输。
+```bash
+# 查询虚拟机系统下的共享文件夹
+ls /mnt/hgfs
 ```
 
 ## 安装编译器g++、cmake、git、文本编辑器vim
@@ -148,7 +155,14 @@ sudo groupdel groupname
 # 删除用户组中的用户
 sudo gpasswd -d 用户名 用户组名
 sudo deluser 用户名 用户组名 # 适用于Ubuntu系统
+```
 
+## 进程
+```bash
+# 启动进程，直接输入进程名
+./name_server # fdbus下的name_server进程，作用是解析fdbus通信
 
+# 查询某个进程
+ps -ef | grep 进程名
 ```
 
