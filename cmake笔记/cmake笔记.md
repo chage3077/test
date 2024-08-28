@@ -19,16 +19,25 @@ project(Mytest) #定义项目名称
 set(CMAKE_CXX_STANDARD 11)
 
 #搜集cpp、h文件路径
+# SRC_LIST是一个变量，用于存储找到的文件路径
 file(GLOB_RECURSE SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
+
+# 生成输出可执行文件的路径
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/app) 
 
 # 将头文件放入编译器里面
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-#添加可执行文件
+#指定包含之前获得的动态库，⽬录默认只在系统库或者本地库去找，要连接其他动态库需要把它的路径添加进来
+# 对于系统自带的链接库，需要使用的时候不需要再次包含路径，cmake会自己找系统下的动态库，只要把名字打上去就行了
+link_directories(动态库的路径1 动态库的路径2) 
+
+#添加可执行文件，需要把所有的.cpp和.h文件包含进去，上面已经找到路径了，所以用${SRC_LIST}表示所有文件的路径
 add_executable(Mytest main.cpp ${SRC_LIST})
 
-# # #链接库
-# target_link_libraries(Mytest)
+#链接库  一般的链接库文件:lib动态库文件名.so
+target_link_libraries(Mytest 链接库文件名)
+target_link_libraries(ClientApp pthread fdbus fdbus-clib) #链接fdbus和fdbus-clib两个动态库，对于libpthread.so存在于系统目录下/usr/lib/x86_64-linux-gnu/libpthread.so 所有不用在通过link_directories进行包含动态库路径
 ```
 # cmake常用命令
 1.指定项目构建目录，读取CMakeLists.txt文件生成构建文件
