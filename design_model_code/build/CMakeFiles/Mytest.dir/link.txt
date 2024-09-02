@@ -1,0 +1,3 @@
+F:\software\cmake\bin\cmake.exe -E rm -f CMakeFiles\Mytest.dir/objects.a
+F:\software\mingw-w64\w64devkit-1.19.0\w64devkit\bin\ar.exe qc CMakeFiles\Mytest.dir/objects.a @CMakeFiles\Mytest.dir\objects1.rsp
+F:\software\mingw-w64\w64devkit-1.19.0\w64devkit\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Mytest.dir/objects.a -Wl,--no-whole-archive -o F:\mycode\design_model_code\exe\Mytest.exe -Wl,--out-implib,F:\mycode\design_model_code\exe\libMytest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Mytest.dir\linkLibs.rsp
