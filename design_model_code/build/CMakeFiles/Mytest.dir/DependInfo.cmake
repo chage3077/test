@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/mycode/design_model_code/main.cpp" "CMakeFiles/Mytest.dir/main.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/main.cpp.obj.d"
-  "F:/mycode/design_model_code/src/Association.cpp" "CMakeFiles/Mytest.dir/src/Association.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/src/Association.cpp.obj.d"
-  "F:/mycode/design_model_code/src/Generalization.cpp" "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj.d"
+  "F:/huangjiahui/mycode/my_github/design_model_code/main.cpp" "CMakeFiles/Mytest.dir/main.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/main.cpp.obj.d"
+  "F:/huangjiahui/mycode/my_github/design_model_code/src/Association.cpp" "CMakeFiles/Mytest.dir/src/Association.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/src/Association.cpp.obj.d"
+  "F:/huangjiahui/mycode/my_github/design_model_code/src/Generalization.cpp" "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj" "gcc" "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

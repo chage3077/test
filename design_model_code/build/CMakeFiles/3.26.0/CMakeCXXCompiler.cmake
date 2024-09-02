@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/c++.exe")
+set(CMAKE_CXX_COMPILER "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.1.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/bin/ld.exe")
+set(CMAKE_AR "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib/gcc;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib;F:/software/mingw-w64/w64devkit-1.19.0/w64devkit/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib;F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
