@@ -82,7 +82,7 @@ protected:
         void onBroadcast(CBaseJob::Ptr& msg_ref) override
         {       // 预定义__FUNCTION__代表本函数名的字符串
                 printf("[%s]\n", __FUNCTION__);
-                // 将msg_ref这个只能指针转换成指向CBaseMessage对象
+                // 将msg_ref这个智能指针转换成指向CBaseMessage对象
                 auto msg = castToMessage<CBaseMessage*>(msg_ref);
 
         }
