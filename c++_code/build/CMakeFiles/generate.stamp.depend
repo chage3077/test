@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+F:/huangjiahui/mycode/my_github/c++_code/CMakeLists.txt
+F:/huangjiahui/mycode/my_github/c++_code/build/CMakeFiles/3.26.0/CMakeCCompiler.cmake
+F:/huangjiahui/mycode/my_github/c++_code/build/CMakeFiles/3.26.0/CMakeCXXCompiler.cmake
+F:/huangjiahui/mycode/my_github/c++_code/build/CMakeFiles/3.26.0/CMakeRCCompiler.cmake
+F:/huangjiahui/mycode/my_github/c++_code/build/CMakeFiles/3.26.0/CMakeSystem.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+F:/huangjiahui/software/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake

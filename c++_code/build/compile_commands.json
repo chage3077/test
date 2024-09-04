@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Mytest.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/main.cpp",
+  "output": "CMakeFiles/Mytest.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Mytest.dir\\src\\Association.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\src\\Association.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/src/Association.cpp",
+  "output": "CMakeFiles/Mytest.dir/src/Association.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Mytest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Mytest.dir\\src\\Generalization.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\src\\Generalization.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/src/Generalization.cpp",
+  "output": "CMakeFiles/Mytest.dir/src/Generalization.cpp.obj"
+}
+]

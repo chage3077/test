@@ -1,0 +1,14 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Singleton_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Take_task_thread.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\Take_task_thread.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Singleton_code\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Singleton_code/main.cpp",
+  "output": "CMakeFiles/Take_task_thread.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Singleton_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Take_task_thread.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\Take_task_thread.dir\\src\\TaskQuene.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Singleton_code\\src\\TaskQuene.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Singleton_code/src/TaskQuene.cpp",
+  "output": "CMakeFiles/Take_task_thread.dir/src/TaskQuene.cpp.obj"
+}
+]

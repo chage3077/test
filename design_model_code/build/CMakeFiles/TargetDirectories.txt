@@ -1,3 +1,0 @@
-F:/huangjiahui/mycode/my_github/design_model_code/build/CMakeFiles/Mytest.dir
-F:/huangjiahui/mycode/my_github/design_model_code/build/CMakeFiles/edit_cache.dir
-F:/huangjiahui/mycode/my_github/design_model_code/build/CMakeFiles/rebuild_cache.dir

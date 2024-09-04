@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/Singleton_code/build/CMakeFiles/Take_task_thread.dir
+F:/huangjiahui/mycode/my_github/Singleton_code/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/Singleton_code/build/CMakeFiles/rebuild_cache.dir
