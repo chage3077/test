@@ -4,7 +4,7 @@
 # compile CXX with F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/Take_task_thread.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/Factory.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++11
 

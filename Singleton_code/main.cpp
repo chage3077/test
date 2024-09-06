@@ -1,6 +1,7 @@
 #include <TaskQuene.h>
 #include <thread> // 模拟多线程的头文件
 using namespace std;
+
 int main()
 {
     TaskQuene *taskQ = TaskQuene::getInstance();

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/main.cpp",
+  "output": "CMakeFiles/Factory.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\src\\Cat.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\src\\Cat.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/src/Cat.cpp",
+  "output": "CMakeFiles/Factory.dir/src/Cat.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\src\\CatFactory.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\src\\CatFactory.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/src/CatFactory.cpp",
+  "output": "CMakeFiles/Factory.dir/src/CatFactory.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\src\\Dog.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\src\\Dog.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/src/Dog.cpp",
+  "output": "CMakeFiles/Factory.dir/src/Dog.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\src\\DogFactory.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\src\\DogFactory.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/src/DogFactory.cpp",
+  "output": "CMakeFiles/Factory.dir/src/DogFactory.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/Factory_code/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Factory.dir\\src\\Factory.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\Factory_code\\src\\Factory.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/Factory_code/src/Factory.cpp",
+  "output": "CMakeFiles/Factory.dir/src/Factory.cpp.obj"
+}
+]
