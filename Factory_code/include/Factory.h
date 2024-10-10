@@ -2,7 +2,7 @@
 #define FACTORY_H
 #include"Animal.h"
 enum class Type:char{Cat,Dog}; // 强类型枚举类型，指定在底层存储类型为char
-class Factory
+class Factory // 工厂类父类
 {
 private:
     /* data */
