@@ -1,0 +1,38 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/main.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\src\\Director.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\src\\Director.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/src/Director.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/src/Director.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\src\\FanDouBuilder.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\src\\FanDouBuilder.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/src/FanDouBuilder.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/src/FanDouBuilder.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\src\\FanDouXiaoqu.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\src\\FanDouXiaoqu.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/src/FanDouXiaoqu.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/src/FanDouXiaoqu.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\src\\NanYangBuilder.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\src\\NanYangBuilder.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/src/NanYangBuilder.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/src/NanYangBuilder.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BuilderModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BuilderModel.dir\\src\\NanYangXiaoqu.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BuilderModel\\src\\NanYangXiaoqu.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BuilderModel/src/NanYangXiaoqu.cpp",
+  "output": "CMakeFiles/BuilderModel.dir/src/NanYangXiaoqu.cpp.obj"
+}
+]
