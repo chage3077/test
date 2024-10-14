@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/PrototypePattren.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\PrototypePattren.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\PrototypePattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/main.cpp",
+  "output": "CMakeFiles/PrototypePattren.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/PrototypePattren.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\PrototypePattren.dir\\src\\Child1.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\PrototypePattern\\src\\Child1.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/src/Child1.cpp",
+  "output": "CMakeFiles/PrototypePattren.dir/src/Child1.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/PrototypePattren.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\PrototypePattren.dir\\src\\Child2.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\PrototypePattern\\src\\Child2.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/src/Child2.cpp",
+  "output": "CMakeFiles/PrototypePattren.dir/src/Child2.cpp.obj"
+}
+]

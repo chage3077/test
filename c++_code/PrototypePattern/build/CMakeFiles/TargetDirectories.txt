@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build/CMakeFiles/PrototypePattren.dir
+F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/PrototypePattern/build/CMakeFiles/rebuild_cache.dir

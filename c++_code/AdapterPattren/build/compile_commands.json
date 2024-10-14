@@ -1,0 +1,38 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/main.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\src\\American.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\src\\American.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/src/American.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/src/American.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\src\\AmericanAdepter.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\src\\AmericanAdepter.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/src/AmericanAdepter.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/src/AmericanAdepter.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\src\\Chinese.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\src\\Chinese.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/src/Chinese.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/src/Chinese.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\src\\English.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\src\\English.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/src/English.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/src/English.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/AdepterModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\AdepterModel.dir\\src\\EnglishAdepter.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\AdapterPattren\\src\\EnglishAdepter.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/AdapterPattren/src/EnglishAdepter.cpp",
+  "output": "CMakeFiles/AdepterModel.dir/src/EnglishAdepter.cpp.obj"
+}
+]
