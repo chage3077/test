@@ -177,7 +177,10 @@ ps -ef | grep 进程名
 # pidin命令用于显示系统的进程信息
 # 管道符号 | 将前一个命令的输出作为后一个命令的输入。也就是说，pidin 命令的输出会传递给 grep 进行处理
 # grep是一个文本过滤工具，用于在文本中搜索符合特定模式的行。grep后面跟的参数指定了要搜索的关键词或正则表达式。
-pidin | grep myprocess # 查找关于myprocess的所有进程
+pidin | grep myprocess # 查找关于myproces
+
+# 在Qnx系统下可以用slay结束进程
+slay 进程名 # 如果找到了该进程会直接结束，不会显示任何东西，若找不到就会说明找不到该进程
 ```
 
 ## 挂载

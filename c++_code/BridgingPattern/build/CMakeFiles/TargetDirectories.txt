@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build/CMakeFiles/Bridging.dir
+F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build/CMakeFiles/rebuild_cache.dir

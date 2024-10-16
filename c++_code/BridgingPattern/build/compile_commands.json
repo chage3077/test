@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/main.cpp",
+  "output": "CMakeFiles/Bridging.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\AbstructShip.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\AbstructShip.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/AbstructShip.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/AbstructShip.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\AbstructTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\AbstructTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/AbstructTeam.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/AbstructTeam.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\CaoMaoTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\CaoMaoTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/CaoMaoTeam.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/CaoMaoTeam.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\HaijunShip.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\HaijunShip.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/HaijunShip.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/HaijunShip.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\HaninkShip.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\HaninkShip.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/HaninkShip.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/HaninkShip.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/Bridging.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Bridging.dir\\src\\SmokerTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BridgingPattern\\src\\SmokerTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BridgingPattern/src/SmokerTeam.cpp",
+  "output": "CMakeFiles/Bridging.dir/src/SmokerTeam.cpp.obj"
+}
+]
