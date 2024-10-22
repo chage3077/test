@@ -1,0 +1,26 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CombinePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CombinePatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CombinePattren\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/main.cpp",
+  "output": "CMakeFiles/CombinePatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CombinePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CombinePatttern.dir\\src\\AbstructTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CombinePattren\\src\\AbstructTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/src/AbstructTeam.cpp",
+  "output": "CMakeFiles/CombinePatttern.dir/src/AbstructTeam.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CombinePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CombinePatttern.dir\\src\\LeafTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CombinePattren\\src\\LeafTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/src/LeafTeam.cpp",
+  "output": "CMakeFiles/CombinePatttern.dir/src/LeafTeam.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CombinePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CombinePatttern.dir\\src\\ManagerTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CombinePattren\\src\\ManagerTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CombinePattren/src/ManagerTeam.cpp",
+  "output": "CMakeFiles/CombinePatttern.dir/src/ManagerTeam.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+F:\huangjiahui\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\CombinePatttern.dir/objects.a
+F:\huangjiahui\software\MinGW\w64devkit-1.19.0\w64devkit\bin\ar.exe qc CMakeFiles\CombinePatttern.dir/objects.a @CMakeFiles\CombinePatttern.dir\objects1.rsp
+F:\huangjiahui\software\MinGW\w64devkit-1.19.0\w64devkit\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CombinePatttern.dir/objects.a -Wl,--no-whole-archive -o F:\huangjiahui\mycode\my_github\c++_code\CombinePattren\exe\CombinePatttern.exe -Wl,--out-implib,F:\huangjiahui\mycode\my_github\c++_code\CombinePattren\exe\libCombinePatttern.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CombinePatttern.dir\linkLibs.rsp
