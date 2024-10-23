@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/main.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\Car.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\Car.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/Car.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/Car.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\ClearUpdateBox.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\ClearUpdateBox.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/ClearUpdateBox.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/ClearUpdateBox.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\DrivingUpdateBox.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\DrivingUpdateBox.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/DrivingUpdateBox.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/DrivingUpdateBox.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\ExhaustUpdateBox.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\ExhaustUpdateBox.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/ExhaustUpdateBox.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/ExhaustUpdateBox.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\JIaQi1699.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\JIaQi1699.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/JIaQi1699.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/JIaQi1699.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/DecorationPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\DecorationPatttern.dir\\src\\UpdateBox.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\DecorationPattern\\src\\UpdateBox.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/DecorationPattern/src/UpdateBox.cpp",
+  "output": "CMakeFiles/DecorationPatttern.dir/src/UpdateBox.cpp.obj"
+}
+]
