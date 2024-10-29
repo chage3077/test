@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/main.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\AimLockSystem.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\AimLockSystem.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/AimLockSystem.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/AimLockSystem.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\CannonShootSystem.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\CannonShootSystem.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/CannonShootSystem.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/CannonShootSystem.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\CokeSystem.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\CokeSystem.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/CokeSystem.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/CokeSystem.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\CovertSystem.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\CovertSystem.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/CovertSystem.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/CovertSystem.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\LionCannon.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\LionCannon.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/LionCannon.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/LionCannon.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/OutlookPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\OutlookPattern.dir\\src\\WindCannonSystem.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\OutlookPattern\\src\\WindCannonSystem.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/src/WindCannonSystem.cpp",
+  "output": "CMakeFiles/OutlookPattern.dir/src/WindCannonSystem.cpp.obj"
+}
+]

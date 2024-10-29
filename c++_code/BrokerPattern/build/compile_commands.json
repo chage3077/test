@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BrokerModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BrokerModel.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BrokerPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/main.cpp",
+  "output": "CMakeFiles/BrokerModel.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BrokerModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BrokerModel.dir\\src\\Phonebugger.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BrokerPattern\\src\\Phonebugger.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/src/Phonebugger.cpp",
+  "output": "CMakeFiles/BrokerModel.dir/src/Phonebugger.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/BrokerModel.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\BrokerModel.dir\\src\\Speaker.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\BrokerPattern\\src\\Speaker.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/BrokerPattern/src/Speaker.cpp",
+  "output": "CMakeFiles/BrokerModel.dir/src/Speaker.cpp.obj"
+}
+]

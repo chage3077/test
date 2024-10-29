@@ -1,0 +1,135 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib/gcc",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/x86_64-w64-mingw32/lib",
+						"F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/g++.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

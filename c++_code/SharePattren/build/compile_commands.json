@@ -1,0 +1,32 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/SharedPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\SharedPattern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\SharePattren\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/main.cpp",
+  "output": "CMakeFiles/SharedPattern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/SharedPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\SharedPattern.dir\\src\\BoomBodyFactory.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\SharePattren\\src\\BoomBodyFactory.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/src/BoomBodyFactory.cpp",
+  "output": "CMakeFiles/SharedPattern.dir/src/BoomBodyFactory.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/SharedPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\SharedPattern.dir\\src\\LunchBoom.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\SharePattren\\src\\LunchBoom.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/src/LunchBoom.cpp",
+  "output": "CMakeFiles/SharedPattern.dir/src/LunchBoom.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/SharedPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\SharedPattern.dir\\src\\SharedBoomBody.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\SharePattren\\src\\SharedBoomBody.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/src/SharedBoomBody.cpp",
+  "output": "CMakeFiles/SharedPattern.dir/src/SharedBoomBody.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/SharedPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\SharedPattern.dir\\src\\UniqueBoomBody.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\SharePattren\\src\\UniqueBoomBody.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/SharePattren/src/UniqueBoomBody.cpp",
+  "output": "CMakeFiles/SharedPattern.dir/src/UniqueBoomBody.cpp.obj"
+}
+]

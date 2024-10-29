@@ -14,7 +14,7 @@ public:
     virtual ~Car() {}
 
 protected:
-    string m_name = string();
+    string m_name = string(); // 不能使用string m_name = nullptr; 这是错误的表达!
 
 private:
 };

@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build/CMakeFiles/OutlookPattern.dir
+F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/OutlookPattern/build/CMakeFiles/rebuild_cache.dir

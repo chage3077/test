@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build/CMakeFiles/SharedPattern.dir
+F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/SharePattren/build/CMakeFiles/rebuild_cache.dir
