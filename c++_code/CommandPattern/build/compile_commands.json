@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/main.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\Cook.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\Cook.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/Cook.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/Cook.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\MPDFcmd.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\MPDFcmd.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/MPDFcmd.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/MPDFcmd.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\QJCRcmd.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\QJCRcmd.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/QJCRcmd.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/QJCRcmd.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\SJcmd.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\SJcmd.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/SJcmd.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/SJcmd.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\SZRPcmd.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\SZRPcmd.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/SZRPcmd.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/SZRPcmd.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/CommandPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CommandPatttern.dir\\src\\Stuff.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\CommandPattern\\src\\Stuff.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/src/Stuff.cpp",
+  "output": "CMakeFiles/CommandPatttern.dir/src/Stuff.cpp.obj"
+}
+]

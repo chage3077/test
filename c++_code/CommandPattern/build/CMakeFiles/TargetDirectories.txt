@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build/CMakeFiles/CommandPatttern.dir
+F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/CommandPattern/build/CMakeFiles/rebuild_cache.dir
