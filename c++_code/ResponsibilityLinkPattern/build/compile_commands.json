@@ -1,0 +1,38 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/main.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\src\\AbstructManager.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\src\\AbstructManager.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/src/AbstructManager.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/src/AbstructManager.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\src\\Fudaoyuan.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\src\\Fudaoyuan.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/src/Fudaoyuan.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/src/Fudaoyuan.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\src\\Nianjizhuren.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\src\\Nianjizhuren.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/src/Nianjizhuren.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/src/Nianjizhuren.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\src\\Student.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\src\\Student.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/src/Student.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/src/Student.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ResponsibilityPattren.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\ResponsibilityPattren.dir\\src\\Yuanzhuren.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ResponsibilityLinkPattern\\src\\Yuanzhuren.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ResponsibilityLinkPattern/src/Yuanzhuren.cpp",
+  "output": "CMakeFiles/ResponsibilityPattren.dir/src/Yuanzhuren.cpp.obj"
+}
+]
