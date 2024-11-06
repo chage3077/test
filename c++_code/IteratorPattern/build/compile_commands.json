@@ -1,0 +1,32 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/IteratorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\IteratorPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\IteratorPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/main.cpp",
+  "output": "CMakeFiles/IteratorPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/IteratorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\IteratorPatttern.dir\\src\\BackIterator.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\IteratorPattern\\src\\BackIterator.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/src/BackIterator.cpp",
+  "output": "CMakeFiles/IteratorPatttern.dir/src/BackIterator.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/IteratorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\IteratorPatttern.dir\\src\\FrontIterator.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\IteratorPattern\\src\\FrontIterator.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/src/FrontIterator.cpp",
+  "output": "CMakeFiles/IteratorPatttern.dir/src/FrontIterator.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/IteratorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\IteratorPatttern.dir\\src\\IteratorList.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\IteratorPattern\\src\\IteratorList.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/src/IteratorList.cpp",
+  "output": "CMakeFiles/IteratorPatttern.dir/src/IteratorList.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/IteratorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\IteratorPatttern.dir\\src\\MyList.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\IteratorPattern\\src\\MyList.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/IteratorPattern/src/MyList.cpp",
+  "output": "CMakeFiles/IteratorPatttern.dir/src/MyList.cpp.obj"
+}
+]

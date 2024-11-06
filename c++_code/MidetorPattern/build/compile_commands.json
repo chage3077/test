@@ -1,0 +1,50 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/main.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\America.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\America.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/America.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/America.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\Australia.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\Australia.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/Australia.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/Australia.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\Chinese.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\Chinese.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/Chinese.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/Chinese.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\Janpan.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\Janpan.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/Janpan.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/Janpan.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\Mediator.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\Mediator.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/Mediator.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/Mediator.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\RevoluAmy.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\RevoluAmy.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/RevoluAmy.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/RevoluAmy.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MediatorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MediatorPatttern.dir\\src\\WorldGovt.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MidetorPattern\\src\\WorldGovt.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MidetorPattern/src/WorldGovt.cpp",
+  "output": "CMakeFiles/MediatorPatttern.dir/src/WorldGovt.cpp.obj"
+}
+]
