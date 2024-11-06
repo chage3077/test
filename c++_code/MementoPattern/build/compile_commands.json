@@ -1,0 +1,26 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MementoPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MementoPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MementoPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/main.cpp",
+  "output": "CMakeFiles/MementoPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MementoPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MementoPatttern.dir\\src\\EightCountiesOrg.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MementoPattern\\src\\EightCountiesOrg.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/src/EightCountiesOrg.cpp",
+  "output": "CMakeFiles/MementoPatttern.dir/src/EightCountiesOrg.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MementoPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MementoPatttern.dir\\src\\History.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MementoPattern\\src\\History.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/src/History.cpp",
+  "output": "CMakeFiles/MementoPatttern.dir/src/History.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/MementoPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MementoPatttern.dir\\src\\Recorder.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\MementoPattern\\src\\Recorder.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/MementoPattern/src/Recorder.cpp",
+  "output": "CMakeFiles/MementoPatttern.dir/src/Recorder.cpp.obj"
+}
+]
