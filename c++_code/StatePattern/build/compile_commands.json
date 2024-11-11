@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StatePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StatePatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StatePattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/main.cpp",
+  "output": "CMakeFiles/StatePatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StatePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StatePatttern.dir\\src\\AbstractState.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StatePattern\\src\\AbstractState.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/src/AbstractState.cpp",
+  "output": "CMakeFiles/StatePatttern.dir/src/AbstractState.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StatePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StatePatttern.dir\\src\\Cooker.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StatePattern\\src\\Cooker.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StatePattern/src/Cooker.cpp",
+  "output": "CMakeFiles/StatePatttern.dir/src/Cooker.cpp.obj"
+}
+]
