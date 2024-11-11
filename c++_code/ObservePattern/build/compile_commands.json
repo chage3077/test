@@ -1,0 +1,50 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/main.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\HoerAgency.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\HoerAgency.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/HoerAgency.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/HoerAgency.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\MaierAgency.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\MaierAgency.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/MaierAgency.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/MaierAgency.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\NewsAgency.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\NewsAgency.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/NewsAgency.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/NewsAgency.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\Observer.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\Observer.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/Observer.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/Observer.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\XiaoFang.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\XiaoFang.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/XiaoFang.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/XiaoFang.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\XiaoHong.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\XiaoHong.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/XiaoHong.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/XiaoHong.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/ObservePatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ObservePatttern.dir\\src\\XiaoMing.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\ObservePattern\\src\\XiaoMing.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/src/XiaoMing.cpp",
+  "output": "CMakeFiles/ObservePatttern.dir/src/XiaoMing.cpp.obj"
+}
+]

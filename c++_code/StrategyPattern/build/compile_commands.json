@@ -1,0 +1,32 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StrategyPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StrategyPattern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StrategyPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/main.cpp",
+  "output": "CMakeFiles/StrategyPattern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StrategyPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StrategyPattern.dir\\src\\Fan.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StrategyPattern\\src\\Fan.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/src/Fan.cpp",
+  "output": "CMakeFiles/StrategyPattern.dir/src/Fan.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StrategyPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StrategyPattern.dir\\src\\Level1.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StrategyPattern\\src\\Level1.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/src/Level1.cpp",
+  "output": "CMakeFiles/StrategyPattern.dir/src/Level1.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StrategyPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StrategyPattern.dir\\src\\Level2.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StrategyPattern\\src\\Level2.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/src/Level2.cpp",
+  "output": "CMakeFiles/StrategyPattern.dir/src/Level2.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/StrategyPattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\StrategyPattern.dir\\src\\Level3.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\StrategyPattern\\src\\Level3.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/StrategyPattern/src/Level3.cpp",
+  "output": "CMakeFiles/StrategyPattern.dir/src/Level3.cpp.obj"
+}
+]

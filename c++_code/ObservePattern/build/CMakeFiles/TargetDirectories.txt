@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build/CMakeFiles/ObservePatttern.dir
+F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build/CMakeFiles/edit_cache.dir
+F:/huangjiahui/mycode/my_github/c++_code/ObservePattern/build/CMakeFiles/rebuild_cache.dir
