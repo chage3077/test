@@ -1,0 +1,26 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/TemplatePattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\TemplatePattern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\TemplatePattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/main.cpp",
+  "output": "CMakeFiles/TemplatePattern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/TemplatePattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\TemplatePattern.dir\\src\\AbstructRobot.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\TemplatePattern\\src\\AbstructRobot.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/src/AbstructRobot.cpp",
+  "output": "CMakeFiles/TemplatePattern.dir/src/AbstructRobot.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/TemplatePattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\TemplatePattern.dir\\src\\Angel.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\TemplatePattern\\src\\Angel.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/src/Angel.cpp",
+  "output": "CMakeFiles/TemplatePattern.dir/src/Angel.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/TemplatePattern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\TemplatePattern.dir\\src\\Pacifist.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\TemplatePattern\\src\\Pacifist.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/TemplatePattern/src/Pacifist.cpp",
+  "output": "CMakeFiles/TemplatePattern.dir/src/Pacifist.cpp.obj"
+}
+]

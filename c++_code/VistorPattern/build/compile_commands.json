@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\main.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\main.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/main.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\AbstructMember.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\AbstructMember.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/AbstructMember.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/AbstructMember.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\AngerAction.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\AngerAction.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/AngerAction.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/AngerAction.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\CaoMaoTeam.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\CaoMaoTeam.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/CaoMaoTeam.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/CaoMaoTeam.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\FemaleMember.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\FemaleMember.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/FemaleMember.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/FemaleMember.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\HorrorAction.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\HorrorAction.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/HorrorAction.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/HorrorAction.cpp.obj"
+},
+{
+  "directory": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/build",
+  "command": "F:\\huangjiahui\\software\\MinGW\\w64devkit-1.19.0\\w64devkit\\bin\\g++.exe  @CMakeFiles/VistorPatttern.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\VistorPatttern.dir\\src\\MaleMember.cpp.obj -c F:\\huangjiahui\\mycode\\my_github\\c++_code\\VistorPattern\\src\\MaleMember.cpp",
+  "file": "F:/huangjiahui/mycode/my_github/c++_code/VistorPattern/src/MaleMember.cpp",
+  "output": "CMakeFiles/VistorPatttern.dir/src/MaleMember.cpp.obj"
+}
+]
