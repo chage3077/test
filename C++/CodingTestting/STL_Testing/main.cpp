@@ -4,6 +4,7 @@
 #include <iostream>
 #include "vector_test.h"
 #include"JudgeMarking.h"
+#include"ListSortExample.h"
 int main()
 {
     //Vector_Test* vector_test = new Vector_Test();
@@ -24,12 +25,17 @@ int main()
 
     // 案例：评委打分
     // 随机数种子
-    srand((unsigned int)time(NULL));
+    /*srand((unsigned int)time(NULL));
     vector<Player> players;
     JudgeMarking judgeMarking;
     judgeMarking.cratePlayer(players);
     judgeMarking.setScore(players);
-    judgeMarking.printf_score(players);
+    judgeMarking.printf_score(players);*/
+
+    // 案例：list的高级排序
+    ListSortExample listSortExample;
+    listSortExample.createPerson();
+    listSortExample.sortPerson();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
