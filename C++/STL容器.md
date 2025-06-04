@@ -247,7 +247,7 @@ d1.back()
 // 使用STL通用的sort方法
 #include<algorithm>
 deque<int> d1;
-sotrt(d1.begin(),d1.end()); // 传入迭代器区间
+sort(d1.begin(),d1.end()); // 传入迭代器区间
 ```
 ### 实例：评委打分
     有5名选手，ABCDE，10个评委分别对每一名选手打分，去除最高分和最低分，取平均分。
@@ -332,4 +332,387 @@ int main()
     printf(v);
 }
 ```
+## stack容器
+    先进后出的数据结构
 
+```cpp
+// 构造
+stack<T> stk;
+
+// 入栈
+stk.push(elem);
+
+// 出栈
+stk.pop();
+
+// 查看栈顶元素
+stk.top();
+
+// 监测栈是否为空
+stk.empty();
+
+// 监测栈的大小
+stk.size();
+```
+## queue容器
+    先进先出的数据结构
+    一端只能添加数据，另一端只能删除数据
+    并且只能访问两端的数据，不能遍历队列
+* queue接口
+```cpp
+// 构造
+queue<T> q;
+queue(const queue& q);
+
+// 入队
+q.push(elem);
+
+// 出队
+q.top();
+
+// 查看队头
+q.front();
+// 查看队尾
+q.back();
+
+// 监测队列是否为空
+q.empty();
+
+// 查看队列的大小
+q.size();
+```
+## List容器
+    STL中的链表list是一种双向循环链表
+
+    对任意的位置进行快速插入或删除元素
+
+    链表的节点拥有prev、next指针域和data数据域
+
+    链表的存储方式不是连续的内存空间，因此list的迭代器只支持前移和后移，不能随便跳跃，只支持++，不支持+1
+
+    list中的迭代器不会随着插入和删除操作而失效，但是在vector中每次删除和插入元素可能会重新开辟内存空间，这样就会使原来的迭代器失效
+* list的构造
+```cpp
+list<int> l1; // 默认构造
+list<int> l2(n, elem); // n个elem构造
+list<int> l3(l2); // 拷贝构造
+list<int> l4(v.begin(), v.end()); // 迭代器区间构造
+```
+* list的赋值和交换
+```cpp
+list<int> l1;
+list<int> l2;
+l2 = l1; // operator= 赋值
+l1.assign(n, elem); // assign赋值:n个elem
+l1.assign(v.begin(), v.end()); // assign赋值:迭代器区间
+
+// 交换
+l1.swap(l2);
+```
+* list的大小操作
+```cpp
+list<int> l1;
+// 监测list的列表长度
+l1.size();
+// 监测list是否为空
+l1.empty();
+// 重新指定大小
+l1.resize(n); // 重新指定长度为n,超出部分默认为0
+l1.resize(n, elem); // 重新指定长度为n,超出部分用elem填充
+```
+* list的插入和删除操作
+```cpp
+// 插入
+l1.push_back(elem); // 尾插
+l1.push_front(elem); // 头插
+l1.insert(pos, elem); // insert在pos位置插入elem
+l1.insert(pos, n, elem); // 在pos位置插入n个elem
+
+// 删除
+l1.pop_back(); // 删除尾元素
+l1.pop_front(); // 删除头元素
+l1.erase(pos); // 删除pos位置的元素
+l1.erase(beg, end); // 删除[beg, end)区间的元素
+l1.clear(); // 删除所有元素
+
+// 移除
+l1.remove(elem); // 删除所有值为elem的元素,不用再使用迭代器去进行删除
+```
+* list数据存取
+
+    对list数据进行存取
+    list本质就是链表，不是连续线性空间存储数据，迭代器也不支持随机访问
+```cpp
+list<int> l1;
+l1.front(); // 返回第一个元素
+l1.back(); // 返回最后一个元素
+```
+* list的反转和排序
+```cpp
+bool myCompare(int v1,int v2)
+{
+    // 告诉迭代器怎么对比
+    // 降序：第一个数大于第二个数
+    return v1>v2;
+}
+```
+```cpp
+#include<algorithm>
+list<int>li;
+l1.reverse(); // 反转list
+// 所有不支持随机访问迭代器是不可以使用标准算法的sort进行排序
+//sort(l1.begin(),l1.end());
+// 不支持随机访问迭代器的容器，内部会有对应的排序算法
+li.sort(); // 默认从小到大，升序
+l1.sort(mycompare)； // 根据myCompare方法实现降序
+```
+### 排序案例
+    将Person自定义数据类型进行排序，Person中有姓名、年龄和身高
+    排序规则：按照年龄进行升序排列，年龄相同按照身高进行降序
+```cpp
+class Person_sort
+{
+public:
+	string m_name;
+	int m_height;
+	int m_age;
+
+	Person_sort(string name,int height,int age):m_name(name),m_height(height),m_age(age){}
+};
+class ListSortExample
+{
+public:
+	list<Person_sort>m_PersonLists;
+	void createPerson();
+	void printf();
+	void sortPerson(); // 进行排序
+	static bool comparePerson(Person_sort &p1, Person_sort &p2); // 对于自定义类型的list排序需要制定回调函数确定比较规则
+};
+void ListSortExample::createPerson()
+{
+	Person_sort p1("张小小", 175, 35);
+	Person_sort p2("张中中", 180, 45);
+	Person_sort p3("周笑", 170, 40);
+	Person_sort p4("霍霍", 190, 25);
+	Person_sort p5("张大大", 160, 35);
+	Person_sort p6("张坤", 200, 35);
+
+	m_PersonLists.push_back(p1);
+	m_PersonLists.push_back(p2);
+	m_PersonLists.push_back(p3);
+	m_PersonLists.push_back(p4);
+	m_PersonLists.push_back(p5);
+	m_PersonLists.push_back(p6);
+}
+
+void ListSortExample::printf()
+{
+	for (list<Person_sort>::const_iterator it = m_PersonLists.begin(); it != m_PersonLists.end(); it++)
+	{
+		cout << "姓名：" << it->m_name << ",年龄：" << it->m_age << ",身高：" << it->m_height << endl;
+	}
+}
+
+void ListSortExample::sortPerson()
+{
+	cout << "排序前......." << endl;
+	printf();
+	cout << "排序后......." << endl;
+	m_PersonLists.sort(comparePerson);
+	printf();
+}
+bool ListSortExample::comparePerson(Person_sort& p1, Person_sort& p2)
+{
+	// 高级排序
+	if (p1.m_age == p2.m_age)
+	{
+		// 年龄相同的情况下，身高按照降序排序
+		return p1.m_height > p2.m_height;
+	}
+	// 按照年龄升序
+	return p1.m_age < p2.m_age;
+}
+
+```
+## set容器
+    本质：二叉树，关联式容器，会自动排序
+    set和multiset的区别：set不允许重复元素，multiset允许重复元素
+* set的构造和赋值
+```cpp
+#include<set>
+set<int> s1; // 默认构造
+set<int> s2(s1); // 拷贝构造
+```
+* set的大小和交换
+    
+    set容器不支持resize方法
+```cpp
+set<int> s1;
+// 返回容器中的数目
+s1.size();
+
+// 监测容器是否为空
+s1.empty();
+
+// 交换两个容器的元素
+s1.swap(s2);
+```
+* set的插入和删除
+```cpp
+set<int> s1;
+// 插入
+s1.insert(elem); // 插入元素
+
+// 删除
+s1.erase(elem); // 删除值为elem的元素
+s1.erase(pos); // 删除pos位置的元素,pos是迭代器
+s1.erase(beg,end); // 删除区间[beg,end)区间的元素
+
+// 清空
+s1.clear();
+```
+* set查找和统计
+```cpp
+set<int> s1;
+s1.find(elem); // 查找值为elem的元素，返回该元素的迭代器，若不存在返回s1.end()
+s1.count(elem); // 查找值为elem的元素，返回值为1或0
+```
+* set和multiset区别
+```cpp
+// set不允许重复元素，multiset允许重复元素
+// set插入的时候会返回插入的结果
+set<int> s1;
+pair<set<int>::iterator,bool> ret = s1.insert(elem); // ret保存结果
+if(ret.second) // 获取pair的bool值
+{
+    cout << "插入成功" << endl;
+}
+else
+{
+    cout << "插入失败" << endl;
+}
+```
+* set内置类型指定排序规则
+    
+    set默认排序进行为升序，如果需要指定其他的排序规则，可以使用仿函数进行更改规则。
+```cpp
+// 指定排序规则，由大到小，需要在插入数据前规定排序规则
+// 利用仿函数，本质上是一个类型
+class MyCompare
+{
+public:
+    // 第一个小括号是重载符号
+    // 第二个小括号是函数参数
+    bool operator()(int a, int b) const
+    {
+        return a > b;
+    }
+}
+set<int,MyCompare>s1;
+s1.insert(1);
+s1.insert(2);
+s1.insert(3);
+```
+* set自定义类型指定排序规则
+
+    在插入自定义数据类型时，都会指定排序的规则
+```cpp
+class comparePerson
+{
+public:
+    bool operator()(const Person &a,const Person &b)
+    {
+        // 按照年龄降序
+        return a.m_age > b.m_age;
+    }
+}
+set<Person,comparePerson>s;
+Person p1("小白",24);
+Person p2("小黑",18);
+Person p2("小红",24);
+Person p2("小青",20);
+s.insert(p1);
+s.insert(p2);
+s.insert(p3);
+s.insert(p4);
+
+// 遍历
+for(set<Person,comparePerson>st = s.begin();st!=s.end();st++)
+{
+    cout<<"姓名："<<st->m_name<<" 年龄："<<st->m_age<<endl;
+}
+```
+## pair对组
+    成对出现的数据，利用对组可以返回两个数据
+* 创建对组
+```cpp
+pair<type,type> p(value1,value2);
+pair<type,type> p = make_pair(value1,value2);
+
+// 例子：
+pair<string,int> p("Tom",15);
+cout << "姓名：" <<p.first << "，年龄：" << p.second << endl;
+```
+## map容器
+    map容器中所有的元素为pair
+    pair中一个是key值（索引值），一个是value值（实值）
+    所有元素都会根据元素的key值进行排序
+
+    关联式容器，底层由二叉树实现
+
+    map不允许重复的key值，multimap允许重复的key值
+* map的构造
+```cpp
+#include<map>
+map<T1,T2> m; // 默认构造
+map<T1,T2> m1(m); // 拷贝构造
+
+m.insert(pair<T1,T2>(key,value)) // pair<T1,T2>(key,value)是匿名对组
+
+void printf(map<T1,T2> &m)
+{
+    for(map<T1,T2>::iterator i=m.begin();i!=m.end();i++)
+    {
+        cout << "Key:" << i->first << " Value:" << i->second << endl;
+    }
+    cout<<endl;
+}
+```
+* map的大小和交换
+```cpp
+map<T1,T2> m1;
+// 查看map的大小
+m1.size();
+
+// 判断map是否为空
+m1.empty();
+
+// 交换两个map
+m1.swap(m2);
+```
+* map的插入和删除
+```cpp
+map<T1,T2> m1;
+
+// 插入元素
+m1.insert(pair<T1,T2>(key,value));
+m1.insert(make_pair(key,value));
+m1.insert(map<T1,T2>::value_type(key,value));
+m1[key]=value; // map已经重载[]，若不存在该key，则会返回默认值为0，所以[]不建议插入，最好是使用[]访问到value值
+
+// 删除元素
+m1.erase(m1.begin());
+m1.erase(key); // 删除指定key的元素
+m1.erase(m1.begin(),m1.end());
+m1.clear();
+```
+* map的查找和统计
+```cpp
+map<T1,T2>m;
+// 查找，返回一个迭代器
+// 找不到就返回m.end()
+map<T1,T2>::iterator pos = m.find(key);
+
+// 统计
+m.count(key); // 查找key值存在的个数，map只能是0或1，而multimap就会出现超过1的情况
+```
