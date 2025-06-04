@@ -1,2 +1,9 @@
-﻿  STL_Testing.cpp
-  STL_Testing.vcxproj -> F:\huangjiahui\mycode\my_github\chage3077\C++\CodingTestting\STL_Testing\x64\Debug\STL_Testing.exe
+﻿  JudgeMarking.cpp
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(39,16): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(53,28): warning C4244: “+=”: 从“_Ty”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(53,28): warning C4244:         with
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(53,28): warning C4244:         [
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(53,28): warning C4244:             _Ty=float
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(53,28): warning C4244:         ]
+F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\JudgeMarking.cpp(55,13): warning C4244: “初始化”: 从“unsigned __int64”转换到“float”，可能丢失数据
+  STL_Testing.vcxproj -> F:\huangjiahui\mycode\MyGitHub\C++\CodingTestting\STL_Testing\x64\Debug\STL_Testing.exe
