@@ -716,3 +716,147 @@ map<T1,T2>::iterator pos = m.find(key);
 // 统计
 m.count(key); // 查找key值存在的个数，map只能是0或1，而multimap就会出现超过1的情况
 ```
+* map的排序
+
+    只能按照key的值从小到大排序
+
+    如果想改变排序规则，需要使用仿函数
+```cpp
+// 内置类型的排序规则
+class MyCompare
+{
+public:
+    bool operator()(int a,int b) const
+    {
+        // 降序排列
+        return a > b;
+    }
+};
+void test()
+{
+    map<int,int,MyCompare>m;
+    m.insert(make_pair(1,10));
+    m.insert(make_pair(3,20));
+    m.insert(make_pair(5,30));
+    m.insert(make_pair(7,40));
+}
+
+// 自定义类型的排序规则
+class MyCompare
+{
+public:
+    bool operator()(Person &p1,Person &p2) const
+    {
+        return p1.m_age > p2.m_age;
+    }
+};
+void test_Person()
+{
+    map<Person,int,MyCompare>m;
+    Person p1("Tom",10);
+    Person p2("Jack",20);
+    Person p3("Mike",30);
+    m.insert(make_pair(p1,10));
+    m.insert(make_pair(p2,20));
+    m.insert(make_pair(p3,30));
+
+    for(map<Person,int,MyCompare>::iterator i=m.begin();i!=m.end();i++)
+    {
+        //....
+    }
+}
+```
+### 案例：员工分组
+    拥有十个员工ABCDEFGHIJ，10名员工进入公司后，需要指定员工在哪个部门工作
+
+    员工的信息：姓名、工资组成；部门分为：策划、美术、研发
+
+    随机给10名员工分配部门和工资
+
+    通过multimap进行插入信息key(部门编号)和value(员工信息)
+
+    分部门显示员工信息
+```cpp
+#define MEISHU 0
+#define CEHUA 1
+#define YANFA 2
+class Staff
+{
+public:
+    string m_name;
+    int m_salary;
+    int m_deptId;
+
+    Staff()
+    {
+
+    }
+    Staff(string name, int salary, int deptId):
+    m_name(name), m_salary(salary), m_deptId(deptId)
+    {
+
+    }
+};
+class MyCompare
+{
+public:
+    bool operator()(Staff &s1, Staff &s2) const
+    {
+        // 按照工资降序排
+        return s1.m_salary > s2.m_salary;
+    }
+};
+class StaffMgr
+{
+public:
+    vector<Staff> m_staffVector;
+    multimap<int, Staff，MyCompare> m_staffMap; // key为部门编号，value为员工信息
+    void CreateStaff()
+    {
+        string str = "ABCDEFGHIJ";
+        for(int i = 0; i < 10; i++)
+        {
+            Staff staff;
+            staff.m_name = string("员工") + str[i];
+
+            staff.m_salary = rand() % 10000 + 10000; // 10000-19999
+
+            m_staffVector.push_back(staff);
+        }
+    }
+    void SetGrounp()
+    {
+        for(vector<Staff>::iterator it = m_staffVector.begin(); it != m_staffVector.end(); it++)
+        {
+            // 产生随机部门编号
+            int index = rand() % 3;
+            it->m_deptId = index;
+            // 放入multimap容器
+            m_StaffMap.insert(make_pair(index, *it));
+        }
+    }
+    void ShowAllStaff()
+    {
+        // 分部门打印
+        // 美术部门起始位置
+        auto mit = m_StaffMap.find(0);
+        // 策划部门起始位置
+        auto mit2 = m_StaffMap.find(1);
+        // 研发部门起始位置
+        auto mit3 = m_StaffMap.find(2);
+
+        for(;mit!=mit2;++mit)
+        {
+            cout << "部门：" << mit->first << "员工姓名：" << mit->second.m_name << "员工薪资：" << mit->second.m_salary << endl;
+        }
+        for(;mit2!=mit3;++mit2)
+        {
+            cout << "部门：" << mit->first << "员工姓名：" << mit->second.m_name << "员工薪资：" << mit->second.m_salary << endl;
+        }
+        for(;mit3!=m_StaffMap.end();++mit3)
+        {
+            cout << "部门：" << mit->first << "员工姓名：" << mit->second.m_name << "员工薪资：" << mit->second.m_salary << endl;
+        }
+    }
+};
+```
