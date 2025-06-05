@@ -27,6 +27,9 @@
     <ClCompile Include="ListSortExample.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="StaffMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vector_test.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ListSortExample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaffMgr.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

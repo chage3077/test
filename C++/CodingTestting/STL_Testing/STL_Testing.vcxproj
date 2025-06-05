@@ -130,11 +130,13 @@
     <ClCompile Include="JudgeMarking.cpp" />
     <ClCompile Include="ListSortExample.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StaffMgr.cpp" />
     <ClCompile Include="Vector_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JudgeMarking.h" />
     <ClInclude Include="ListSortExample.h" />
+    <ClInclude Include="StaffMgr.h" />
     <ClInclude Include="vector_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -5,6 +5,7 @@
 #include "vector_test.h"
 #include"JudgeMarking.h"
 #include"ListSortExample.h"
+#include"StaffMgr.h"
 int main()
 {
     //Vector_Test* vector_test = new Vector_Test();
@@ -33,9 +34,16 @@ int main()
     judgeMarking.printf_score(players);*/
 
     // 案例：list的高级排序
-    ListSortExample listSortExample;
+    /*ListSortExample listSortExample;
     listSortExample.createPerson();
-    listSortExample.sortPerson();
+    listSortExample.sortPerson();*/
+
+    // 案例：map容器员工分组
+    srand((unsigned int)time(NULL));
+    StaffMgr staffMgr;
+    staffMgr.createStaff();
+    staffMgr.setGrounp();
+    staffMgr.showAllStaffs();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
