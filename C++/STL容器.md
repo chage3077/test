@@ -860,3 +860,556 @@ public:
     }
 };
 ```
+# STL函数对象
+    重载函数调用操作符operator()的类，其对象称为函数对象
+    函数对象重载()，行为类似函数调用，也叫仿函数
+    特点：
+    1.可以像普通函数那样调用，有参数，有返回值
+    2.函数对象可以拥有自己的状态（例如成员属性记录状态）
+    3.函数对象可以作为参数传递
+```cpp
+class MyAdd
+{
+public:
+    int operator()(int a,int b)
+    {
+        return a+b;
+    }
+};
+// 函数对象可以存储自己的状态
+class MyPrint
+{
+public:
+    MyPrint()
+    {
+        m_Count = 0;
+    }
+    void operator()(string test)
+    {
+        cout<<test<<endl;
+        m_Count++;
+    }
+    int m_Count = 0; // 函数对象自己内部的状态
+}
+// 函数对象可以作为参数传递
+// 这个函数需要传入一个函数对象作为参数，有点像回调函数
+void doPrint(MyPrint &myPrint,string test)
+{
+    myPrint(test);
+}
+int main()
+{
+    MyAdd myAdd; // 函数对象
+    myAdd(11,22);
+
+    MyPrint myPrint;
+    myPrint("hello world");
+    myPrint("hello world");
+    myPrint("hello world");
+    myPrint("hello world");
+    myPrint("hello world");
+    cout<<"myPrint调用了"<<myPrint.m_Count<<"次"<<endl; // 查看函数对象的次数，次数属于函数对象内部的一个状态
+
+    // 函数对象作为参数传递
+    doPrint(myPrint,"hello world");
+}
+```
+## 一元谓词
+    前提：仿函数返回值为bool
+    定义：仿函数传入的参数只有一个时称为一元谓词（Predicate）
+
+```cpp
+// 输出大于5的元素
+class Greater5
+{
+public:
+    bool operator()(int val)
+    {
+        return val > 5;
+    }
+};
+void test(vector<int> &v)
+{
+    // Greater5()是一个匿名的函数对象
+    // find_if返回一个迭代器，符合条件的元素位置
+    // 只能找到第一个大于5的元素，因为找到之后就退出了
+    vecttor<int>::iterator it = find_if(v.begin(), v.end(), Greater5());
+    if(it == v.end())
+    {
+        cout << "没有大于5的元素" << endl;
+    }
+    else
+    {
+        cout << "找到大于5的元素：" << *it << endl;
+    }
+}
+```
+## 二元谓词
+    前提：仿函数返回值为bool
+    定义：仿函数传入的参数有2个时称为二元谓词（Predicate）
+```cpp
+// 使用函数对象改变算法策略
+class MyCompare
+{
+public:
+    bool operator()(int v1, int v2)
+    {
+        return v1 > v2;
+    }
+};
+void test(vector<int> &v)
+{
+    // MyCompare()匿名对象，仿函数改变算法策略
+    sort(v.begin(), v.end(), MyCompare());
+}
+```
+# STL内建仿函数
+    STL提供了一些函数对象，有算术仿函数、关系仿函数和逻辑仿函数
+
+    这些仿函数用法和普通函数用法相同
+    需要引入头文件#include<functional>
+## 算术防函数
+    实现四则运算
+```cpp
+#include<functional>
+// negate取反仿函数
+negate<int>n;
+n(10); // 像普通函数那样调用
+// plus加法仿函数
+plus<int>p; // 只能同种数据类型相加，所以传递一个int类型即可
+p(10, 20);
+// 减法
+minus<T>m;
+// 乘法
+multiply<T>m;
+// 除法
+divide<T>d;
+// 取模
+modulus<T>m;
+```
+## 关系仿函数
+```cpp
+// 使用内建的关系仿函数
+void test(vector<int>&v)
+{
+    // greater<int>()就是内建的仿函数，一个匿名对象
+    // greater是大于
+    sort(v.begin(),v.end(),greater<int>());
+    // less是小于
+    sort(v.begin(),v.end(),less<int>());   
+}
+// 等于
+equal_to<T> n;
+// 不等于
+not_equal_to<T> n;
+// 大于等于
+greater_equal<T> n;
+// 小于等于
+less_equal<T> n;
+```
+## 逻辑仿函数
+```cpp
+// 逻辑非
+logical_not<T> n;
+void test(vector<bool>&v)
+{
+    // 取反参数v的元素
+    vector<bool>v2;
+    v2.resize(v.size()); // 一定要开辟空间
+    // 搬运
+    // logical_not<bool>()匿名对象
+    transform(v.begin(),v2.begin(),logical_not<bool>());
+}
+```
+# STL算法
+    主要由头文件<algorithm>、<functional>、<numeric>组成
+    algorithm：包含多种算法，范围大
+    functional：包含一些函数对象，定义了一些模板类
+    numeric：包含一些数值算法，如 accumulate
+## 遍历算法
+* for_each遍历
+```cpp
+// 普通函数
+void print(int val)
+{
+    cout << val << " ";
+}
+class Print
+{
+public:
+    void operator()(int val)
+    {
+        cout << val << " ";
+    }
+};
+// for_each遍历
+void test01(vector<int> &v)
+{
+    for_each(v.begin(),v.end(),print); // 传入普通函数
+
+    for_each(v.begin(),v.end(),Print()); // 传入函数对象
+}
+```
+* transform算法
+```cpp
+class Transform
+{
+public:
+    int operator()(int val)
+    {
+        return val;
+    }
+};
+void test02(vector<int> &v)
+{
+    vector<int> targetVec;
+    targetVec.resize(v.size());
+    // transform搬运
+    // 仿函数实现每个元素的数据处理
+    transform(v.begin(),v.end(),targetVec.begin(),Transform());
+}
+```
+## 查找算法
+* find算法
+
+    查找指定元素的迭代器，找不到就返回end()迭代器
+```cpp
+// 查找内置数据类型
+void find_innerData(vector<int> &v)
+{
+    // 查找是否有5这个元素
+    vector<int>::iterator it = find(v.begin(),v.end(),5);
+
+    if(it != v.end())
+    {
+        cout << "找到5，位置是：" << distance(v.begin(),it) << endl;
+    }
+    else
+    {
+        cout << "未找到5" << endl;
+    }
+}
+// 查找自定义数据类型
+class Person
+{
+public:
+    bool operator==(const Person &p1,const  Person &p2)
+    {
+        if(p1.age == p2.age&&p1.name == p2.name)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    string name;
+    int age;
+};
+void find_outData(vector<Person> &v,Person &p)
+{
+    // 自定义Person没有重载==
+    // 需要重载==，底层find才能知道如何对比
+    vector<Person>::iterator it = find(v.begin(),v.end(),p);
+
+    if(it != v.end())
+    {
+        cout << "找到" << endl;
+    }
+    else
+    {
+        cout << "未找到" << endl;
+    }
+}
+```
+* find_if
+    
+    按照条件查找，返回对应的迭代器,参数需要传入仿函数
+```cpp
+// 仿函数
+class GreaterFive
+{
+    bool operator()(int v)
+    {
+        if(v>5)
+            return true;
+        return false;
+    }
+};
+// 查找内置数据类型
+void find_if_innerData(vector<int> &v)
+{
+    // 查找大于5的元素
+    vector<int>::iterator it = find_if(v.begin(), v.end(), GreaterFive());
+
+    if(it != v.end())
+    {
+        cout << "找到" << endl;
+    }
+    else
+    {
+        cout << "未找到" << endl;
+    }
+}
+// 查找自定义数据类型
+class Person
+{
+    string name;
+    int age;
+};
+class Greater20
+{
+public:
+    bool operator()(Person &p)
+    {
+        return p.age > 20;
+    }
+}
+void find_if_selfData(vector<Person> &v)
+{
+    find_if(v.begin(), v.end(), Greater20());
+    if(it != v.end())
+    {
+        cout << "找到" << endl;
+    }
+    else
+    {
+        cout << "未找到" << endl;
+    }
+}
+```
+* adjacent_find
+
+    查找相邻重复元素
+    传回来的是第一个重复元素的迭代器位置
+
+    adjacent_find(begin, end);
+* binary_search
+
+    查找指定元素是否存在，返回bool值
+
+    无序序列不可使用，结果未知
+
+    bool binary_search(begin, end, value);
+* count统计元素的个数
+```cpp
+// 统计内置数据类型
+void test(vector<int> &v,int value)
+{
+    int num = count(v.begin(), v.end(), value);
+}
+class Person
+{
+    string m_Name;
+    int m_Age;
+    bool operator==(const Person &p)
+    {
+        if(this->m_Age == p.m_Age&&this->m_Name == p.m_Name)
+        {
+            return true;
+        }
+        return false;
+    }
+};
+// 统计自定义数据类型
+void test(vector<Person> &v,Person& p)
+{
+    int  num = count(v.begin(), v.end(), p);
+}
+```
+* count_if
+
+    按照条件统计元素个数
+
+    count_if(v.begin(), v.end(),_Pred);
+```cpp
+class Person
+{
+    string m_Name;
+    int m_Age;
+};
+class Greater20
+{
+    bool operator()(int val)
+    {
+        return val > 20;
+    }
+};
+class Greater20age
+{
+public:
+    bool operator()(const Person &p)
+    {
+        return p.m_Age > 20;
+    }
+};
+// 统计内置数据类型
+void test(vector<int> &v)
+{
+    int num = count_if(v.begin(), v.end(),Greater20());
+}
+// 统计自定义数据类型
+void test02(vector<Person> &v)
+{
+    int num = count_if(v.begin(), v.end(),Greater20age());
+}
+```
+## 常用排序算法
+* sort
+
+    对容器内的元素进行排序
+
+    sort(iterator beg, iterator end,_Pred);
+```cpp
+void test(vector<int> &v)
+{
+    // 默认为升序
+    // 改变为降序,使用内建函数对象
+    sort(v.begin(), v.end(), greater<int>());
+}
+```
+* random_shuffle随机打乱算法
+    随机打乱容器内元素的顺序
+```cpp
+void test(vector<int> &v)
+{
+    random_shuffle(v.begin(), v.end());
+}
+```
+* merge合并两个容器
+
+    两个容器必须是有序的，将两个有序的容器合并为一个新的有序容器(有序的方向要一致)
+    
+    目标容器必须分配好内存空间
+```cpp
+void test(vector<int> &v1, vector<int> &v2,vector<int> &targertVec)
+{
+    targetVec.resize(v1.size() + v2.size());
+    // 合并之后存放到目标容器
+    merge(v1.begin(), v1.end(), v2.begin(), v2.end(), targertVec.begin())；
+}
+```
+* reverse
+    反转指定范围的元素
+```cpp
+void test(vector<int> &v)
+{
+    reverse(v.begin(), v.end());
+}
+```
+## 常用的拷贝和替换算法
+* copy
+
+    将指定范围内的元素拷贝到另一个容器中
+```cpp
+void test(vector<int> &v, vector<int> &targetVec)
+{
+    // 目标容器需要提前开辟空间
+    targetVec.resize(v.size());
+    copy(v.begin(), v.end(), targetVec.begin());
+}
+```
+* replace
+
+    将指定范围内的元素替换为指定元素
+```cpp
+void test(vector<int> &v,int oldVal, int newVal)
+{
+    replace(v.begin(), v.end(), oldVal, newVal);
+}
+```
+* replace_if
+
+    按照条件进行替换元素，满足条件的都进行替换
+
+    需要传入谓词，谓词的作用就是条件判断
+```cpp
+class Greater10
+{
+public:
+    bool operator()(int val)
+    {
+        return val > 10;
+    }
+};
+void test(vector<int> &v, int newVal)
+{
+    replace_if(v.begin(), v.end(), Greater10(), newVal);
+}
+```
+* swap
+
+    互换两个容器的元素，两个容器的元素类型必须相同
+
+```cpp
+void test(vector<int> &v1, vector<int> &v2)
+{
+    swap(v1, v2);
+}
+```
+## 常用算术生成算法
+    包括accumulate和fill算法，需要包括头文件<numeric>
+    accumulate:计算容器元素累积总和
+    fill:填充容器元素
+* accumulate
+```cpp
+#include<numeric>
+int test(vector<int> &v)
+{
+    // 第三个参数是起始累加值
+    int ret = accumulate(v.begin(), v.end(), 0);
+    return ret;
+}
+```
+* fill
+```cpp
+void test(vector<int> &v)
+{
+    // 一般用于后期填充数据
+    fill(v.begin(), v.end(), 10);
+}
+```
+## 常用集合的算法
+    进行集合的算法，例如：交集、并集和差集
+    set_intersection:求交集
+    set_union:求并集
+    sert_difference:求差集
+* 获取交集set_intersection
+
+    两个容器必须是有序的
+```cpp
+#inculde<algorithm>
+void test(vector<int> &v1, vector<int> &v2,vector<int> &targetVec)
+{
+    // 目标容器需要提前开辟空间
+    // 最特殊的情况就是大容器包含小容器
+    targetVec.resize(min(v1.size(), v2.size()));
+
+    // 还会返回一个迭代器，交集最后的迭代器（结束迭代器）
+    vector<int>::iterator itEnd = set_intersection(v1.begin(), v1.end(), v2.begin(), v2.end(), targetVec.begin());
+}
+```
+* 获取并集set_union
+
+    两个容器必须是有序的
+```cpp
+void test(vector<int>& v1, vector<int>& v2, vector<int>& targetVec)
+{
+    // 目标容器需要提前开辟空间
+    // 最特殊的情况就是两个容器都没交集，开辟的空间就是他们元素的总和
+    targetVec.resize(v1.size() + v2.size());
+    // 获取并集
+    vector<int>::iterator itEnd = set_union(v1.begin(), v1.end(), v2.begin(), v2.end(), targetVec.begin());
+}
+```
+* 获取差集set_difference
+```cpp
+void test(vector<int> &v1, vector<int> &v2, vector<int> &targetVec)
+{
+    // 目标容器需要提前开辟空间
+    // 最特殊的情况就是两个容器都没有交集，取最大的容器来开辟空间
+    targetVec.resize(max(v1.size(), v2.size()));
+    vector<int>::iterator itEnd = set_difference(v1.begin(), v1.end(), v2.begin(), v2.end(), targetVec.begin());
+}
+```
