@@ -1,0 +1,8 @@
+﻿  OrderInfos.cpp
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(49,37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(57,39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(65,38): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(73,40): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(81,39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\order\OrderInfos.cpp(89,39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  ComputerRoom_Odering_System.vcxproj -> F:\huangjiahui\mycode\MyGitHub\c++_code\Computer_Book_System\Computer_Book_System\bin\Debug\ComputerRoom_Odering_System.exe

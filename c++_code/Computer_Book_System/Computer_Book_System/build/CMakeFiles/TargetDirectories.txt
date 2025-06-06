@@ -1,0 +1,3 @@
+F:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System/build/CMakeFiles/ComputerRoom_Odering_System.dir
+F:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System/build/CMakeFiles/ALL_BUILD.dir
+F:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System/build/CMakeFiles/ZERO_CHECK.dir

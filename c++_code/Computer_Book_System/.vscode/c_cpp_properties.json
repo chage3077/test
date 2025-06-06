@@ -4,7 +4,10 @@
             "name": "windows-gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Computer_Book_System/menu"
+                "${workspaceFolder}/Computer_Book_System/menu",
+                "${workspaceFolder}/Computer_Book_System/Identity",
+                "${workspaceFolder}/Computer_Book_System/global",
+                "${workspaceFolder}/Computer_Book_System/logic/loginFuction"
             ],
             "compilerPath": "F:/huangjiahui/software/MinGW/w64devkit-1.19.0/w64devkit/bin/gcc.exe",
             "cStandard": "${default}",

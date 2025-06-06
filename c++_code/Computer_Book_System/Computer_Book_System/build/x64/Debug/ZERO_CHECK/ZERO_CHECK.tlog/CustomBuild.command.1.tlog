@@ -1,0 +1,10 @@
+^F:\HUANGJIAHUI\MYCODE\MYGITHUB\C++_CODE\COMPUTER_BOOK_SYSTEM\COMPUTER_BOOK_SYSTEM\BUILD\CMAKEFILES\A29E4F86F332625BD9C87903FD34C6CB\GENERATE.STAMP.RULE
+setlocal
+F:\huangjiahui\software\CMake\bin\cmake.exe -SF:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System -BF:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/huangjiahui/mycode/MyGitHub/c++_code/Computer_Book_System/Computer_Book_System/build/ComputerRoom_Odering_System.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
