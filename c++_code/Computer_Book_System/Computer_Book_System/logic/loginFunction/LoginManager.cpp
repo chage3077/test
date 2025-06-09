@@ -84,6 +84,7 @@ void LoginManager::login(string filename, int type, MenuMgr *menuMgr)
                 system("cls");
                 m_person = new Teacher(fId, fName, fPwd); // 父类指针指向子类
                 // 进入教师的子菜单
+                menuMgr->showTeacherMenu(m_person);
                 return;
             }
         }

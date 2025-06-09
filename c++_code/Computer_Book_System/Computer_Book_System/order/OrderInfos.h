@@ -35,9 +35,9 @@ struct OrderInfo
 class OrderInfos
 {
 private:
-    map<int, map<string, string>> m_orderInfos; // 预约信息，首先大map记录所有的预约信息，小map保存预约每一条信息，记录字段属性和信息
     int m_size;                                 // 预约记录条数
 public:
+    map<int, map<string, string>> m_orderInfos; // 预约信息，首先大map记录所有的预约信息，小map保存预约每一条信息，记录字段属性和信息
     OrderInfos();
     void upDateOrderInfo();
     void RefreshOrderInfoMap();

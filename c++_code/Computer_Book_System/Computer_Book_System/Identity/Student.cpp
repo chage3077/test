@@ -1,13 +1,14 @@
 #include "Student.h"
 #include "globalFile.h"
 #include <fstream>
+#include <vector>
 Student::Student()
 {
 }
 
 Student::~Student()
 {
-    if(m_orderInfos!=nullptr)
+    if (m_orderInfos != nullptr)
         delete m_orderInfos;
 }
 
@@ -101,7 +102,7 @@ void Student::applyOrder()
     // 写入文件中
     ofstream ofs;
     ofs.open(ORDER_FILE, ios::app);
-    if(!ofs.is_open())
+    if (!ofs.is_open())
     {
         cout << "文件打开失败" << endl;
         return;
@@ -121,6 +122,44 @@ void Student::applyOrder()
 
 void Student::showMyOrder()
 {
+    // 读取文件，遍历容器，选出学生学号相同的预约信息
+    if (m_orderInfos == nullptr && m_orderInfos->getSize() == 0)
+    {
+        cout << "没有预约信息" << endl;
+        system("pause");
+        system("cls");
+        return;
+    }
+    for(auto mt = m_orderInfos->m_orderInfos.begin();mt !=m_orderInfos->m_orderInfos.end();mt++)
+    {
+        if(mt->second.find("studentId")->second == to_string(m_id))
+        {
+            cout << "预约信息：" << endl;
+            cout << "周" << mt->second.find("data")->second<<endl;
+            cout << "预约时间段：" << (mt->second.find("period")->second == "1" ? "上午" : "下午") << endl;
+            cout << "预约机房号：" << mt->second.find("roomId")->second << endl;
+            string status = "状态：";
+            // 1 审核中 2.已预约 -1.预约失败 0.取消预约
+            if (mt->second.find("status")->second == "1")
+            {
+                status += "审核中";
+            }
+            else if (mt->second.find("status")->second == "2")
+            {
+                /* code */
+                status += "预约成功";
+            }
+            else if (mt->second.find("status")->second == "0")
+            {
+                status += "取消预约";
+            }
+            else
+            {
+                status += "预约失败";
+            }
+            cout << "审核状态：" << status << endl;
+        }
+    }
 }
 
 void Student::showAllOrder()
@@ -130,6 +169,76 @@ void Student::showAllOrder()
 
 void Student::cancelOrder()
 {
+    if(m_orderInfos==nullptr&&m_orderInfos->m_orderInfos.size() == 0)
+    {
+        cout << "没有预约信息" << endl;
+        system("pause");
+        system("cls");
+        return;
+    }
+    cout <<"审核中或预约成功的记录可以取消，请输入取消的记录"<<endl;
+    int index = 1; // 建立与文件对应的索引
+    vector<int>v; // 存放对应的索引值，存放map大容器的key值
+    // 判断自己的学号
+    for(auto mt = m_orderInfos->m_orderInfos.begin();mt !=m_orderInfos->m_orderInfos.end();mt++)
+    {
+        if(mt->second.find("studentId")->second == to_string(m_id))
+        {
+            // 再筛选状态
+            if(mt->second.find("status")->second == "1" || mt->second.find("status")->second == "2")
+            {
+                v.push_back(mt->first);
+                cout<<index++<<"、";
+                cout<<"预约日期，周"<<mt->second.find("data")->second<<endl;
+                cout<<"预约时间段："<<(mt->second.find("period")->second == "1" ? "上午" : "下午")<<endl;
+                cout<<"预约机房号："<<mt->second.find("roomId")->second<<endl;
+                string status = "状态：";
+                // 1 审核中 2.已预约 -1.预约失败 0.取消预约
+                if (mt->second.find("status")->second == "1")
+                {
+                    status += "审核中";
+                }
+                else if (mt->second.find("status")->second == "2")
+                {
+                    /* code */
+                    status += "预约成功";
+                }
+                else if (mt->second.find("status")->second == "0")
+                {
+                    status += "取消预约";
+                }
+                else
+                {
+                    status += "预约失败";
+                }
+                cout << "审核状态：" << status << endl;
+            }
+        }
+    }
+    cout<<"请输入取消的记录，0代表返回"<<endl;
+    int select = 0;
+    while (true)
+    {
+        /* code */
+        cin>>select;
+        if(select >=0  && select <= v.size())
+        {
+            if(select == 0)
+                break;
+            else
+            {
+                // v[select-1]对应的就是大容器对应的key值
+                m_orderInfos->m_orderInfos.find(v[select-1])->second.find("status")->second = "0";
+
+                m_orderInfos->upDateOrderInfo(); // 更新文件
+                cout<<"取消成功"<<endl;
+                break;
+            }
+        } 
+    }
+    system("pause");
+    system("cls");
+    
 }
 
 void Student::getComputerRoomInfo()

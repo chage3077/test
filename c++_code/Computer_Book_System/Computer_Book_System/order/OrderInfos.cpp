@@ -19,7 +19,7 @@ void OrderInfos::upDateOrderInfo()
         cout << "文件打开失败" << endl;
         return;
     }
-    for (int i = 0; i < m_size; i++)
+    for (int i = 0; i < m_orderInfos.size(); i++)
     {
         ofs << "data:" << m_orderInfos[i]["data"] << " ";
         ofs << "period:" << m_orderInfos[i]["period"] << " ";
@@ -93,9 +93,9 @@ void OrderInfos::RefreshOrderInfoMap()
             value = orderInfo->m_status.substr(pos + 1, orderInfo->m_status.size() - pos - 1);
             m.insert(make_pair(key, value));
         }
-        // 将小map放到大map中
-        m_size++;
+        // 将小map放到大map中       
         m_orderInfos.insert(make_pair(m_size, m));
+        m_size++;
         m.clear(); // 清空小map继续更新
     }
     ifs.close();

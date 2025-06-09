@@ -3,12 +3,17 @@
 #include "LoginManager.h"
 #include "globalFile.h"
 #include "Windows.h"
+#include <thread>
+#include <chrono>
 using namespace std;
 int main()
 {
     SetConsoleOutputCP(CP_UTF8);
     // 设置控制台输入为 UTF-8
     SetConsoleCP(CP_UTF8);
+
+   // 让当前线程休眠 5 秒
+    //std::this_thread::sleep_for(std::chrono::seconds(5));
     int select = 0;
     MenuMgr *menuMgr = new MenuMgr();
     LoginManager loginManager;

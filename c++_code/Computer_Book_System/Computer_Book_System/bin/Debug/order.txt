@@ -1,1 +1,4 @@
-data:1 period:2 studentId:1 name:Jack roomId:1 status:审核中
+data:1 period:2 studentId:1 name:Jack roomId:1 status:0
+data:2 period:1 studentId:1 name:Jack roomId:2 status:0
+data:2 period:1 studentId:4 name:Coke roomId:2 status:2
+data:2 period:1 studentId:4 name:Coke roomId:2 status:2

@@ -1,11 +1,17 @@
 #ifndef TEACHER_H
 #define TEACHER_H 
 #include"Identity.h"
+#include"OrderInfos.h"
+#include<vector>
 class Teacher:public Identity
 {
 public:
     Teacher();
-    Teacher(int id,string name,string pwd):m_Empid(id),Identity(name,pwd){}
+    Teacher(int id,string name,string pwd):m_Empid(id),Identity(name,pwd)
+    {
+        m_orderInfos = new OrderInfos();
+        m_orderInfos->RefreshOrderInfoMap();
+    }
     void setId(int id);
     int getEmpId();
     void operMenu()override;
@@ -16,5 +22,6 @@ public:
 
 private:
     int m_Empid;
+    OrderInfos* m_orderInfos; // 预约信息
 };
 #endif

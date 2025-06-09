@@ -10,5 +10,6 @@ public:
     void showMainMenu();
     void showManagerMenu(Identity* person); // 管理员子菜单
     void showStudentMenu(Identity* person); // 学生子菜单
+    void showTeacherMenu(Identity* person); // 教师子菜单
 };
 #endif
